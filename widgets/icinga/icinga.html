@@ -1,0 +1,47 @@
+<h1 class="title" data-bind="title"></h1>
+
+<ul class="list-nostyle">
+  <li data-showif='services'>
+    <span class="label" data-bind="services.OK.label"></span>
+    <span class="value" data-bind="services.OK.value"></span>
+  </li>
+  <li data-showif='services'>
+    <span class="label" data-bind="services.WARNING.label"></span>
+    <span class="value" data-bind="services.WARNING.value"></span>
+  </li>
+  <li data-showif='services'>
+    <span class="label" data-bind="services.CRITICAL.label"></span>
+    <span class="value" data-bind="services.CRITICAL.value"></span>
+  </li>
+  <li data-showif='services'>
+    <span class="label" data-bind="services.UNKNOWN.label"></span>
+    <span class="value" data-bind="services.UNKNOWN.value"></span>
+  </li>
+  <li data-showif='services'>
+    <span class="label" data-bind="services.Total.label"></span>
+    <span class="value" data-bind="services.Total.value"></span>
+  </li>
+  <li data-showif='hosts'>
+    <span class="label" data-bind="hosts.UP.label"></span>
+    <span class="value" data-bind="hosts.UP.value"></span>
+  </li>
+  <li data-showif='hosts'>
+    <span class="label" data-bind="hosts.DOWN.label"></span>
+    <span class="value" data-bind="hosts.DOWN.value"></span>
+  </li>
+  <li data-showif='hosts'>
+    <span class="label" data-bind="hosts.PENDING.label"></span>
+    <span class="value" data-bind="hosts.PENDING.value"></span>
+  </li>
+  <li data-showif='hosts'>
+    <span class="label" data-bind="hosts.UNREACHABLE.label"></span>
+    <span class="value" data-bind="hosts.UNREACHABLE.value"></span>
+  </li>
+  <li data-showif='hosts'>
+    <span class="label" data-bind="hosts.Total.label"></span>
+    <span class="value" data-bind="hosts.Total.value"></span>
+  </li>
+</ul>
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

@@ -1,0 +1,5 @@
+---
+:icinga:
+   :base_uri: 'http://<hostname/base uri to /web/api>'
+   :authkey:  '<icinga authkey goes here>'
+   :refresh_rate: '1m'
